@@ -11,15 +11,11 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - uses: haskell-actions/setup@v2
       with:
-        ghc-version: '9.4.8'
-        cabal-version: '3.2'
         enable-stack: true
         stack-version: 'latest'
     - run: stack build --pedantic
