@@ -1,5 +1,5 @@
 name:                haskell-uon
-version:             0.1.2.14
+version:             0.1.3.0
 github:              "mejgun/haskell-uon"
 license:             MIT
 author:              "mejgun"
@@ -46,7 +46,6 @@ library:
     - bytestring
     - vector
     - scientific
-    - sqlite-simple
   default-extensions:
     - OverloadedStrings
     - NoFieldSelectors
